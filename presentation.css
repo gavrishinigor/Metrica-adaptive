@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5 ,h6, p, a {
 .presentation__img {
     min-width: 100%;
     min-height: 100%;
-    background-image: url(/resources/Projects-first-image@2x.jpeg);
+    background-image: url(resources/Presentation@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
