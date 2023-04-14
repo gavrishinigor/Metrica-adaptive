@@ -1,0 +1,55 @@
+.header__container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    width: 1151px;
+    height: 25px;
+    margin-top: 29px;
+    margin-bottom: 74px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.header img {
+    width: 127px;
+    height: 22px;
+    margin-top: 2px;
+    background-image: cover;
+}
+
+.header__item {
+    width: 86px;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #121212;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+}
+
+
+.item-aboutus {
+    margin-left: 555px;
+    margin-top: 2px;
+}
+
+.item-projects {
+    margin-left: 57px;
+}
+
+.item-services {
+    margin-left: 56px;
+}
+
+.item-contacts {
+    margin-left: 57px;
+}
+
+.header__item:hover {
+    border-bottom: solid 1px;
+    opacity: 0.5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
