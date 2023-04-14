@@ -1,0 +1,50 @@
+.container__aboutus {
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-bottom: 150px;
+}
+
+.aboutus__items {
+    width: 1051px;
+    height: 518px;
+    margin-left: 124px;
+}
+
+.aboutus__title {
+    width: 51px;
+    height: 25px;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.aboutus__description {
+    width: 1048px;
+    height: 366px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+}
+
+.aboutus__button {
+    width: 255px;
+    height: 67px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #AD1818;
+    border: none;
+}
+
