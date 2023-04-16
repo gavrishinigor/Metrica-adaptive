@@ -51,7 +51,6 @@
 
     .container__aboutus {
         width: 100%;
-        margin: 0 auto;
         margin-bottom: 120px;
     }
 
@@ -62,8 +61,8 @@
     }
 
     .aboutus__description {
-        width: 690px;
-        height: 336px;
+        width: 693px;
+        height: 488px;
         margin-left: 3px;
         font-size: 35px;
         line-height: 47.81px;
@@ -76,7 +75,6 @@
 
     .container__aboutus {
         width: 100%;
-        margin: 0 auto;
         margin-bottom: 80px;
     }
 
