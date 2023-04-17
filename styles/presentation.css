@@ -37,8 +37,7 @@ h1, h2, h3, h4, h5 ,h6, p, a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    padding-top: 379px;
-    padding-left: 40px;
+    padding: 379px 0px 40px 40px;
 }
 
 .presentation__description {
@@ -68,7 +67,6 @@ h1, h2, h3, h4, h5 ,h6, p, a {
 
     .presentation__title {
         width: 802px;
-        margin-bottom: 30px;
         font-size: 50px;
     }
 
