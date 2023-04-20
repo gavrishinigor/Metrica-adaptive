@@ -33,6 +33,10 @@
     margin-bottom: 15px;
 }
 
+/* .item-image {
+    max-height: 450px;
+} */
+
 .an-object {
     width: 550px;
     height: 41px;
@@ -96,6 +100,14 @@
         margin-bottom: 80px;
     }
 
+    .item_last {
+        margin-bottom: 100px;
+    }
+
+    .item-image {
+        margin-bottom: 12px;
+    }
+
     .an-object {
         width: 452px;
         height: 34px;
@@ -108,8 +120,6 @@
     .projects__button {
         width: 100%;
     }
-
-
 
 }
 
@@ -139,9 +149,13 @@
         margin-bottom: 49px;
     }
 
+    .item_last {
+        margin-bottom: 60px;
+    }
+
     .item-image {
         height: 250px;
-        margin-bottom: 20px;
+        margin-bottom: 17px;
     }
 
     .an-object {

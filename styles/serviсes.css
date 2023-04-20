@@ -1,0 +1,105 @@
+.services {
+    background-color: #121212;
+
+}
+
+.serviсes__container {
+    width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    padding-top: 150.62px;
+}
+
+.services__title {
+    width: 66px;
+    height: 24.94px;
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+    margin: 0px 0px 29.93px 127px;
+    color: #ffffff;
+
+}
+                    
+.serviсes__items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 80.7px;
+    justify-content: space-between;
+    padding: 0px 123px 0px 125px;
+    margin-bottom: 104px;
+
+}
+
+.serviсes__item {
+    width: 569px;
+    height: 452.97px;
+}
+
+.item__image {
+    width: 569px;
+    height: 388.03px;
+    padding: 31.51px 0px 0px 30px;
+    margin-bottom: 25.94px;
+}
+
+.item__sticker {
+    width: 163px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 22px;
+    line-height: 30px;
+    background-color: #AD1818;
+    text-align: center;
+    color: #ffffff;
+}
+
+.item__sticker_supervision {
+    width: 193px;
+}
+
+.item__sticker_equipment {
+    width: 211px;
+}
+
+.item__title {
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.serviсes__button {
+    width: 1150px;
+    height: 153px;
+    display: block;
+    padding-top: 56px;
+    margin-left: 125px;
+    background: #AD1818;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.image_solution {
+    background-image: url(../resources/Solution@2x.png);
+    background-size: cover;
+}
+
+.image_design-project {
+    background-image: url(../resources/design-project@2x.png);
+    background-size: cover;
+}
+
+.image_supervision {
+    background-image: url(../resources/Supervision@2x.png);
+    background-size: cover;
+}
+
+.imageitem_equipment {
+    background-image: url(../resources/Equipment@2x.png);
+    background-size: cover;
+}
