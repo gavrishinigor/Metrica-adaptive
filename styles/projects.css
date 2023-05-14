@@ -97,7 +97,7 @@
 
     .item-image {
         width: 100%;
-        height: 450px;    
+        height: 450px; 
     }
 
     .an-object {
@@ -110,7 +110,6 @@
     .projects__button {
         width: 100%;
     }
-
 }
 
 @media (max-width: 767px) {
@@ -137,7 +136,7 @@
     }
 
     .item-image {
-        height: 250зч;
+        height: 250px;
         margin-bottom: 20px;
     }
 

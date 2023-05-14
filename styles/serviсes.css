@@ -81,19 +81,19 @@
 
 .image_solution {
 
-    background-image: url(../resources/Solution@2x.png);
+    background-image: url(../resources/image_solution@2x.jpeg);
 }
 
 .image_design-project {
-    background-image: url(../resources/design-project@2x.png);
+    background-image: url(../resources/image_design-project@2x.jpeg);
 }
 
 .image_supervision {
-    background-image: url(../resources/Supervision@2x.png);
+    background-image: url(../resources/image_supervision@2x.jpeg);
 }
 
 .image_equipment {
-    background-image: url(../resources/Equipment@2x.png);
+    background-image: url(../resources/image_equipment@2x.jpeg);
 }
 
 @media (max-width: 1199px) {
@@ -125,6 +125,23 @@
     .item__title {
         font-size: 25px;
         line-height: 34.15px
+    }
+
+    .image_solution {
+
+        background-image: url(../resources/image_solution-tablet.jpeg);
+    }
+    
+    .image_design-project {
+        background-image: url(../resources/image_design-project-tablet.jpeg);
+    }
+    
+    .image_supervision {
+        background-image: url(../resources/image_supervision-tablet.jpeg);
+    }
+    
+    .image_equipment {
+        background-image: url(../resources/image_equipment-tablet.jpeg);
     }
 }
 
@@ -183,6 +200,23 @@
         border-radius: 3.8px;
         font-size: 22px;
         line-height: 30px;
+    }
+
+    .image_solution {
+
+        background-image: url(../resources/image_solution-mobile.jpeg);
+    }
+    
+    .image_design-project {
+        background-image: url(../resources/image_design-project-mobile.jpeg);
+    }
+    
+    .image_supervision {
+        background-image: url(../resources/image_supervision-mobile.jpeg);
+    }
+    
+    .image_equipment {
+        background-image: url(../resources/image_equipment-mobile.jpeg);
     }
 
 }
