@@ -61,7 +61,8 @@
         width: 100%;
         height: auto;
         font-size: 35px;
-        line-height: 47.81px;
+        line-height: 48px;
+        padding-right: 20%;
     }
 
 
@@ -90,15 +91,17 @@
         margin: 0px 0px 30px 0px;
         font-size: 22px;
         line-height: 30.05px;
+        padding-right: 2%;
     }
 
     .aboutus__button {
         width: 194px;
         height: 51px;
-        Padding: 15px 30px;
-        font-size: 15.3px;
-        line-height: 21.86px;
+        Padding: 15px 27px;
+        font-size: 16px;
+        line-height: 22px;
         border-radius: 3.8px;
+        letter-spacing: -0.03em;
     }
 
 }

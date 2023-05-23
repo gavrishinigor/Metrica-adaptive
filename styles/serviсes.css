@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     row-gap: 80px;
     justify-content: space-between;
-    margin-bottom: 104px;
+    /* margin-bottom: 104px; */
 
 }
 
@@ -33,7 +33,7 @@
 
 .item__image {
     height: 388px;
-    padding: 30px 0px 0px 30px;
+    padding: 31.5px 0px 0px 30px;
     margin-bottom: 25px;
     background-size: cover;
     background-position: 50% 50%;
@@ -43,12 +43,13 @@
     width: 163px;
     height: 40px;
     border-radius: 5px;
-    padding-top: 5px;
+    /* padding-top: 6px; */
     font-size: 22px;
-    line-height: 30px;
+    line-height: 40px;
     background-color: #AD1818;
     text-align: center;
     color: #ffffff;
+    padding: 0 20px;
 }
 
 .item__sticker_supervision {
@@ -100,8 +101,8 @@
 
     .serviсes__container  {
         width: 100%;
-        padding: 150px 15px 120px 15px;
-        margin-bottom: 120px;
+        padding: 150px 23px 120px 26px;
+        margin-bottom: 118px;
     }
 
     .services__title {
@@ -115,11 +116,18 @@
 
     .item__image {
         height: 315px;
+        padding: 31.5px 0px 0px 33px;
         margin-bottom: 15px;
     }
 
+    .item__sticker {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
     .serviсes__button {
-        margin-top: 80px;
+        width: calc(100% + 20px);
+        margin: 80px 0px 0px -10px;
     }
 
     .item__title {
@@ -134,6 +142,7 @@
     
     .image_design-project {
         background-image: url(../resources/image_design-project-tablet.jpeg);
+        padding-left: 42px;
     }
     
     .image_supervision {
@@ -142,14 +151,15 @@
     
     .image_equipment {
         background-image: url(../resources/image_equipment-tablet.jpeg);
-    }
+        padding-left: 42px;
+    }   
 }
 
 @media (max-width: 767px) {
 
     .serviсes__container {
         padding: 80px 12px 80px 13px;
-        margin-bottom: 80px;
+        margin-bottom: 77px;
     }
 
     .services__title {
@@ -160,7 +170,7 @@
     }
 
     .serviсes__items {
-        row-gap: 60px;
+        row-gap: 59px;
         flex-direction: column;
     }
 
@@ -175,12 +185,20 @@
     }
 
     .item__sticker {
-        width: 55%;
-        height: 30px;
-        border-radius: 5px;
-        padding-top: 3.8px;
+        width: 38%;
+        height: auto;
+        border-radius: 3.8px;
+        padding: 0 20px;
         font-size: 14px;
-        line-height: 19px;
+        line-height: 30px;
+    }
+
+    .item__sticker_supervision {
+        width: 45%;
+    }
+    
+    .item__sticker_equipment {
+        width: 50%;
     }
 
     .item__title {
@@ -191,12 +209,14 @@
 
     .item__image {
         height: 240px;
+        margin-bottom: 10px;
     }
 
     .serviсes__button {
+        width: 100%;
         height: 100px;
-        margin-top: 60px;
-        padding-top: 37px;
+        margin: 60px 0px 0px 0px;
+        padding-top: 35px;
         border-radius: 3.8px;
         font-size: 22px;
         line-height: 30px;
