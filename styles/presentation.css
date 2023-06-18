@@ -1,35 +1,17 @@
-body {
-    scroll-behavior: smooth;
-}
-
-h1, h2, h3, h4, h5 ,h6, p, a {
-    font-family: 'Manrope';
-    letter-spacing: -0.03em;
-}
-
-.presentation__container {
-    max-width: 1400px;
-    margin: 0 auto;
-    margin-bottom: 150px;
-}
-
-.presentation__items {
-    width: 1150px;
-    height: 650px;
-    margin-left: 125px;
-}
-
 .presentation__title {
-    width: 956px;
-    height: 120px;
+    padding-right: 196px;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
 }
 
-.presentation__img {
+.presentation__items {
     width: 1150px;
+    /* height: 650px; */
+}
+
+.presentation__img {
     background-image: url(../resources/Presentation-image@2x.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,18 +22,16 @@ h1, h2, h3, h4, h5 ,h6, p, a {
 .presentation__description {
     width: 430px;
     height: 81px;
-    font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     color: #ffffff;
 }
 
 @media (max-width: 1199px) {
-
-    .presentation__container {
-        width: 100%;
-        padding: 0px 15px 0px 15px;
-        margin-bottom: 120px;
+    .presentation__title {
+        padding-right: 15%;
+        margin-bottom: 30px;
+        font-size: 50px;
     }
 
     .presentation__items {
@@ -60,8 +40,7 @@ h1, h2, h3, h4, h5 ,h6, p, a {
         margin: 0px;
     }
 
-    .presentation__title {
-        width: 100%;
+    .title {
         height: auto;
         font-size: 50px;
         padding-right: 12%;
@@ -76,13 +55,7 @@ h1, h2, h3, h4, h5 ,h6, p, a {
 }
 
 @media (max-width: 767px) {
-
-    .presentation__container {
-        padding: 0px 12px 0px 13px;
-        margin-bottom: 80px;
-    } 
-
-    .presentation__title {
+   .presentation__title {
         margin-bottom: 25px;
         font-size: 30px;
         line-height: 31.62px;

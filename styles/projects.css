@@ -1,31 +1,13 @@
-.projects__container {
-    width: 1400px;
-    margin: 0 auto;
+.container__projects {
     margin-bottom: 156px;
 }
 
-.projects__items {
-    width: 1150px;
-    margin: 0px 0px 0px 125px;
-}
-
-.projects__title {
-    width: 79px;
-    height: 25px;
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-}
-
 .item {
-    width: 1150px;
     height: 548px;
     margin-bottom: 90px;
 }
 
 .item-image {
-    width: 1150px;
     height: 450px;
     display: block;
     margin-bottom: 15px;
@@ -34,7 +16,7 @@
 .an-object {
     width: 550px;
     height: 41px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
@@ -74,19 +56,11 @@
 
 @media (max-width: 1199px) {
 
-    .projects__container {
-        width: 100%;
-        padding: 0px 17px 0px 15px;
+    .container__projects {
         margin-bottom: 100px;
     }
 
-    .projects__items {
-        width: 100%;
-        margin: 0px 0px 0px 0px;
-    }
-
     .item {
-        width: 100%;
         height: auto;
         margin-bottom: 80px;
     }
@@ -103,6 +77,7 @@
     .an-object {
         width: 455px;
         height: 34px;
+        margin-bottom: 10px;
         font-size: 25px;
         line-height: 34.15px;
     }
@@ -114,8 +89,7 @@
 
 @media (max-width: 767px) {
 
-    .projects__container {
-        padding: 0px 12px 0px 12px;
+    .container__projects {
         margin-bottom: 80px;
     }
 
