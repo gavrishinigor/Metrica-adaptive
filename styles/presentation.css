@@ -28,6 +28,7 @@
 }
 
 @media (max-width: 1199px) {
+
     .presentation__title {
         padding-right: 15%;
         margin-bottom: 30px;
@@ -55,6 +56,7 @@
 }
 
 @media (max-width: 767px) {
+    
    .presentation__title {
         margin-bottom: 25px;
         font-size: 30px;
