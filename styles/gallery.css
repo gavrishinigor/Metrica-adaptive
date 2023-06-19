@@ -1,9 +1,4 @@
-/* .gallery__container {
-    width: 1400px;
-    margin: 0 auto;
-} */
-
-.gallery-inner {
+.container {
     position: relative;
 }
 
@@ -14,7 +9,6 @@
     font-size: 22px;
     line-height: 30px;
     top: 67px;
-    left: 124px;
     text-transform: uppercase;
 
 }
@@ -64,7 +58,7 @@
     height: 40px;
     position: absolute;
     top: 515px;
-    left: 135px;
+    left: 5px;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -92,4 +86,15 @@
 
 .gallery__control_next:hover {
     opacity: 0.5;
+}
+
+.gallery__description {
+    position: absolute;
+    z-index: 1;
+    width: 443px;
+    height: 82px;
+    top: 575px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 41px;
 }
