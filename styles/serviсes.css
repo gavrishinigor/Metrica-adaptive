@@ -234,3 +234,15 @@
     }
 
 }
+
+@media (max-width: 435px) {
+
+    .item__sticker_supervision {
+        width: 43%;
+    }
+    
+    .item__sticker_equipment {
+        width: 45%;
+    }
+
+}
