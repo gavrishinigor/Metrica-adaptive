@@ -1,4 +1,4 @@
-.home-page {
+html {
     scroll-behavior: smooth;
 }
 
@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5 ,h6, p, a {
     font-family: 'Manrope';
     font-weight: 400;
     letter-spacing: -0.03em;
+    color: #121212;
 }
 
 .container {

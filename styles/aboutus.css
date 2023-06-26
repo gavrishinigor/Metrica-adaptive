@@ -11,12 +11,9 @@
 
 .aboutus__description {
     width: 1048px;
-    height: 366px;
     margin: 0px 0px 30px 3px;
-    font-weight: 400;
     font-size: 45px;
-    line-height: 61.47px;
-    color: #121212;
+    line-height: 61.45px;
 }
 
 .aboutus__button {
@@ -41,15 +38,8 @@
         height: auto;
     }
 
-    .title {
-        margin-bottom: 30px;
-        font-size: 18px;
-        line-height: 25px;
-    }
-
     .aboutus__description {
         width: 100%;
-        height: auto;
         font-size: 35px;
         line-height: 48px;
         padding-right: 20%;
@@ -58,10 +48,6 @@
 
 @media (max-width: 767px) {
 
-    .aboutus__items {
-        margin: 0px 0px 81px 0px;
-    }
-
     .title {
         margin-bottom: 19.95px;
         font-size: 14px;
@@ -69,7 +55,6 @@
     }
 
     .aboutus__description {
-        height: auto;
         margin: 0px 0px 30px 0px;
         font-size: 22px;
         line-height: 30.05px;
@@ -83,7 +68,6 @@
         font-size: 16px;
         line-height: 22px;
         border-radius: 3.8px;
-        letter-spacing: -0.03em;
     }
 
 }

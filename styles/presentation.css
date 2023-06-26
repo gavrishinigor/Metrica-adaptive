@@ -1,14 +1,8 @@
 .presentation__title {
     padding-right: 196px;
     margin-bottom: 30px;
-    font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-}
-
-.presentation__items {
-    width: 1150px;
-    height: 650px;
 }
 
 .presentation__img {
@@ -31,24 +25,10 @@
 
     .presentation__title {
         padding-right: 15%;
-        margin-bottom: 30px;
         font-size: 50px;
-    }
-
-    .presentation__items {
-        width: 100%;
-        height: auto;
-        margin: 0px;
-    }
-
-    .title {
-        height: auto;
-        font-size: 50px;
-        padding-right: 12%;
     }
 
     .presentation__img {
-        width: 100%;
         background-image: url(../resources/Presentation-image-tablet@2x.jpeg);
         padding: 289px 0px 30px 42px;
     }
@@ -56,7 +36,7 @@
 }
 
 @media (max-width: 767px) {
-    
+
    .presentation__title {
         margin-bottom: 25px;
         font-size: 30px;
@@ -71,7 +51,7 @@
 
     .presentation__description {
         max-width: 75%;
-        height: auto;
+        height: 88px;
         font-size: 16px;
         line-height: 21.86px;
     }

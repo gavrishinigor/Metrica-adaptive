@@ -18,9 +18,9 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
     <title>Metrica adartive</title>
 </head>
-<body class="home-page">
-    <header >
-        <!-- <div class="header">
+<body>
+    <!-- <header >
+        <div class="header">
             <div class="header__container">
                 <div class="header__nav" >
                     <img src="resources/Метрика@2x.png" alt="Логотип Метрика" />            
@@ -30,10 +30,10 @@
                     <a class="header__item item-contacts" href="#contacts">КОНТАКТЫ</a>          
                 </div>
             </div>
-    </div> -->
-    </header>
+        </div>
+    </header> -->
     <main class="main">
-        <section class="presentation">
+        <section class="presentation" id="presentation">
             <div class="container">
                 <div class="presentation__items">
                     <h1 class="presentation__title">
@@ -47,7 +47,7 @@
                 </div>          
             </div> 
         </section>
-        <section class="aboutus">
+        <section class="aboutus" id="aboutus">
             <div class="container">
                 <div class="aboutus__items">
                     <h2 class="title">
@@ -66,7 +66,7 @@
                     <h2 class="title">
                         ПРОЕКТЫ
                     </h2>
-                    <div class="item">
+                    <div class="projects__item">
                         <picture>
                             <source
                             media="(max-width: 767px)"
@@ -76,16 +76,16 @@
                             media="(max-width: 1199px)"
                             srcset="resources/Projects-first-image-tablet.jpeg"
                             />
-                            <img class="item-image" src="./resources/Projects-first-image@2x.jpeg" alt="">
+                            <img class="projects__item-image" src="./resources/Projects-first-image@2x.jpeg" alt="">
                         </picture>
                         <p class="an-object">
                             ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
                         </p>
-                        <a class="link" href="">
+                        <a class="projects__link" href="">
                             Подробнее →
                         </a>
                     </div>
-                    <div class="item">
+                    <div class="projects__item">
                         <picture>
                             <source
                             media="(max-width: 767px)"
@@ -95,16 +95,16 @@
                             media="(max-width: 1199px)"
                             srcset="resources/Projects-second-image-tablet.jpeg"
                             />
-                            <img class="item-image" src="./resources/Projects-second-image@2x.jpeg" alt="">
+                            <img class="projects__item-image" src="./resources/Projects-second-image@2x.jpeg" alt="">
                         </picture>
                         <p class="an-object">
                             ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
                         </p>
-                        <a class="link" href="">
+                        <a class="projects__link" href="">
                             Подробнее →
                         </a>
                     </div>
-                    <div class="item item_last">
+                    <div class="projects__item projects__item_last">
                         <picture>
                             <source
                             media="(max-width: 767px)"
@@ -114,12 +114,12 @@
                             media="(max-width: 1199px)"
                             srcset="resources/Projects-third-image-tablet.jpeg"
                             />
-                            <img class="item-image" src="./resources/Projects-third-image@2x.jpeg" alt="">
+                            <img class="projects__item-image" src="./resources/Projects-third-image@2x.jpeg" alt="">
                         </picture>
                         <p class="an-object">
                             ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
                         </p>
-                        <a class="link" href="">
+                        <a class="projects__link" href="">
                             Подробнее →
                         </a>
                     </div>
@@ -138,7 +138,7 @@
                     <div class="serviсes__item item_solution">
                         <div class="item__image image_solution">
                             <div class="item__sticker">
-                                <p>
+                                <p class="item__sticker-paragraph">
                                     от 2500₽/м²
                                 </p>
                             </div>
@@ -151,7 +151,7 @@
                     <div class="serviсes__item item_design-project">
                         <div class="item__image image_design-project">
                             <div class="item__sticker">
-                                <p>
+                                <p class="item__sticker-paragraph">
                                     от 3000₽/м²
                                 </p>
                             </div>
@@ -163,7 +163,7 @@
                     <div class="serviсes__item item_supervision">
                         <div class="item__image image_supervision">
                             <div class="item__sticker item__sticker_supervision">
-                                <p>
+                                <p class="item__sticker-paragraph">
                                     от 30 000₽/мес
                                 </p>
                             </div>
@@ -175,7 +175,7 @@
                     <div class="serviсes__item item_equipment">
                         <div class="item__image image_equipment">
                             <div class="item__sticker item__sticker_equipment">
-                                <p>
+                                <p class="item__sticker-paragraph">
                                     5% от стоимости
                                 </p>
                             </div>
@@ -185,12 +185,12 @@
                             </p>
                     </div>
                 </div>
-                <a class="serviсes__button" href="">
+                <button class="serviсes__button">
                     Заказать услугу
-                </a>              
+                </button>             
             </div>
         </section>
-        <section class="reviews">
+        <section class="reviews" id="reviews">
             <div class="container">
                 <div class="reviws__title">
                     <h2>
@@ -223,7 +223,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="reviews__row-last">
                         <div class="reviews__items">
                             <h3 class="item-title">
                                 Яна, проект 120 кв.м.
@@ -238,7 +238,7 @@
                 </div>
             </div>
         </section>
-        <section class="gallery">
+        <!-- <section class="gallery" id="gallery">
             <div class="container">
                     <h2 class="gallery__title">
                         галерея проектов
@@ -263,7 +263,7 @@
                 <div class="gallery__slide image_north-wind">
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
         <div class="footer">
