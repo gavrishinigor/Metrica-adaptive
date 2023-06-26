@@ -1,9 +1,3 @@
-.reviews__container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px 125px 150px 125px;
-}
-
 .reviws__title {
     font-size: 18px;
     line-height: 25px;
@@ -46,16 +40,10 @@
 
 @media (max-width: 1199px) {
 
-    .reviews__container {
-        width: 100%;
-        padding: 0px 15px 120px 16px;
-    }
-    
     .item-title {
         font-size: 35px;
         line-height: 48px; 
         margin-bottom: 25px;
-    
     }
 
     .reviews__row {
@@ -80,11 +68,6 @@
 
 @media (max-width: 767px) {
 
-    .reviews__container {
-        width: 100%;
-        padding: 0px 12px 80px 12px;
-    }
-    
     .reviws__title {
         font-size: 14px;
         line-height: 19px;
