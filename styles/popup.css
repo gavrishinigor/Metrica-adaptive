@@ -1,0 +1,128 @@
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+.popup_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__container {
+    height: 100vh;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__content {
+    width: 777px;
+    height: 708px;
+    position: relative;
+    padding: 94px 74px 0 55px;
+    border-radius: 10px;
+    background-color: #fff; 
+}
+
+.popup__close-btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 42px;
+    right: 44px;
+}
+
+.popup__close-btn:hover {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.08);;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.19);
+}
+
+.popup__title {
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -1.35px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.popup__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.54px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.popup__count {
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    line-height: 34px;
+    border: none;
+    border-bottom: solid 1px;
+    margin: 0 0 50px 0;
+    opacity: 0.5;
+    outline: none
+}
+
+.popup__count-last {
+    margin: 0 0 80px 0;
+}
+
+.popup__count::placeholder {
+    width: 50%;
+}
+
+.btn-sending {
+    width: 100%;
+    height: 67px;
+    margin: 0 0 86px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #AD1818;
+    border: none;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+@media (max-width: 1199px) {
+
+    
+}
+
+@media (max-width: 767px) {
+
+    .popup__content {
+        width: 100%;
+        height: 611px;
+        padding: 80px 20px 0 20px;
+        border-radius: 10px;
+        background-color: #fff; 
+    }
+
+    .popup__close-btn {
+        width: 30px;
+        height: 30px;
+        margin: 0 0 10px 286px;
+    }
+    
+    .popup__close-btn:hover {
+        border-radius: 3.8px;
+    }
+
+
+}

@@ -1,39 +1,81 @@
-.container {
+.gallery__wrapper {
     position: relative;
+}
+
+.gallery__container {
+    padding-top: 67px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
 }
 
 .gallery__title {
-    position: absolute;
-    z-index: 1;
-    color: aliceblue;
+    color: #FFFFFF;
     font-size: 22px;
     line-height: 30px;
-    top: 67px;
     text-transform: uppercase;
+}
 
+.gallery__controls {
+    width: 94px;
+    height: 40px;
+    margin: 418px 0 20px -10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.gallery__control_prev {
+    width: 40px;
+    border: none;
+    background: none;
+    background-image: url(../resources/image_control.png);
+    background-size: cover;
+}
+
+.gallery__control_next {
+    width: 40px;
+    background-repeat: no-repeat;
+    border: none;
+    background: none;
+    background-image: url(../resources/image_control.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.gallery__control_prev:hover,
+.gallery__control_next:hover {
+    opacity: 0.5;
+}
+
+.gallery__description {
+    width: 37%;
+    color: #fff;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 60px;
 }
 
 .gallery__slides {
-    position: relative;
     height: 717px;
+    position: relative;
+    margin-bottom: 150px;
 }
 
 .gallery__slide {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+    background-position: 50% 50%;
     opacity: 0;
-
 }
 
 .gallery__slide_active {
     opacity: 1;
-
 }
 
 .image_forest-landscape {
@@ -53,56 +95,75 @@
     background-image: url(../resources/Gallery_north-wind.png);
 }
 
-.gallery__controls {
-    width: 94px;
-    height: 40px;
-    position: absolute;
-    top: 515px;
-    left: 5px;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-}
-
-.gallery__control_prev {
-    width: 40px;
-    border: none;
-    background: none;
-    background-image: url(../resources/image_control.png);
-}
-
-.gallery__control_prev:hover {
-    opacity: 0.5;
-}
-
-.gallery__control_next {
-    width: 40px;
-    background-repeat: no-repeat;
-    border: none;
-    background: none;
-    background-image: url(../resources/image_control.png);
-    transform: rotate(180deg);
-}
-
-.gallery__control_next:hover {
-    opacity: 0.5;
-}
-
-.gallery__description {
-    position: absolute;
-    z-index: 1;
-    width: 443px;
-    height: 82px;
-    top: 575px;
-    color: #fff;
-    font-size: 30px;
-    line-height: 41px;
-}
-
 @media (max-width: 1199px) {
 
+    .gallery__container {
+        padding-top: 80px;
+
+    }
+
+    .gallery__title {
+        margin-left: 35px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .gallery__controls {
+        margin: 237px 0 5px 27px;
+    }
+
+    .gallery__description {
+        width: 40%;
+        margin-left: 35px;
+        color: #fff;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .gallery__slides {
+        height: 536px;
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width: 767px) {
+
+    .gallery__container {
+        padding-top: 60px;
+    }
+
+    .gallery__title {
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .gallery__controls {
+        width: 104%;
+        height: 30px;
+        margin: 109px 0 0 -5px;
+    }
     
+    .gallery__control_prev {
+        width: 30px;
+
+    }
+    
+    .gallery__control_next {
+        width: 30px;
+    }
+
+    .gallery__description {
+        width: 75%;
+        margin: 77px 0 0 0;
+        color: #fff;
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .gallery__slides {
+        height: 408px;
+        margin-bottom: 80px;
+    }
+
 }

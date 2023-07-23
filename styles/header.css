@@ -1,55 +1,57 @@
 .header__container {
-    width: 1400px;
-    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 70px;
 }
 
 .header__nav {
-    width: 1151px;
-    height: 25px;
-    margin-top: 29px;
-    margin-bottom: 74px;
-    margin-left: 125px;
-    display: inline-block;
+    display: flex; 
+    align-items: center;
 }
 
-.header img {
+.header__logo {
     width: 127px;
-    height: 22px;
-    margin-top: 2px;
-    background-image: cover;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 558px;
 }
 
 .header__item {
     width: 86px;
-    height: 25px;
     cursor: pointer;
     text-decoration: none;
     color: #121212;
-    font-weight: 400;
     font-size: 18px;
     line-height: 25px;  
 }
 
-
 .item-aboutus {
-    margin-left: 555px;
-    margin-top: 2px;
+    width: 51px;
+    margin-right: 60px;
 }
 
 .item-projects {
-    margin-left: 57px;
+    width: 79px;
+    margin-right: 60px;
 }
 
 .item-services {
-    margin-left: 56px;
+    width: 66px;
+    margin-right: 60px;
 }
 
 .item-contacts {
-    margin-left: 57px;
+    width: 90px;
 }
 
 .header__item:hover {
     border-bottom: solid 1px;
     opacity: 0.5;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1199px) {
+
+    .header__item {
+        display: none;
+    }
 }

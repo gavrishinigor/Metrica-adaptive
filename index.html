@@ -13,17 +13,20 @@
     <link rel="stylesheet" href="styles/serviсes.css">
     <link rel="stylesheet" href="styles/reviews.css">
     <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/popup.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
     <title>Metrica adartive</title>
 </head>
 <body>
-    <!-- <header >
+    <header>
         <div class="header">
-            <div class="header__container">
-                <div class="header__nav" >
-                    <img src="resources/Метрика@2x.png" alt="Логотип Метрика" />            
+            <div class="container header__container">
+                <div class="header__nav">
+                    <img class="header__logo" src="resources/Метрика.svg" alt="Логотип Метрика" />            
                     <a class="header__item item-aboutus" href="#aboutus">О НАС</a>
                     <a class="header__item item-projects" href="#projects">ПРОЕКТЫ</a>
                     <a class="header__item item-services" href="#services">УСЛУГИ</a>
@@ -31,8 +34,8 @@
                 </div>
             </div>
         </div>
-    </header> -->
-    <main class="main">
+    </header>
+    <main>
         <section class="presentation" id="presentation">
             <div class="container">
                 <div class="presentation__items">
@@ -185,7 +188,7 @@
                             </p>
                     </div>
                 </div>
-                <button class="serviсes__button">
+                <button class="serviсes__button js-btn">
                     Заказать услугу
                 </button>             
             </div>
@@ -238,37 +241,97 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="gallery" id="gallery">
-            <div class="container">
-                    <h2 class="gallery__title">
-                        галерея проектов
+        <section class="gallery" id="gallery">
+            <div class="gallery__wrapper">
+                <div class="gallery__items">
+                    <div class="container gallery__container">
+                        <h2 class="gallery__title">
+                            галерея проектов
+                        </h2>
+                        <div class="gallery__controls">
+                            <button class="gallery__control_prev">
+                            </button>
+                            <button class="gallery__control_next">
+                            </button>
+                        </div>
+                        <p class="gallery__description">
+                            Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
+                        </p>
+                    </div>
+                    <div class="gallery__slides">
+                        <div class="gallery__slide image_forest-landscape gallery__slide_active">
+                        </div>
+                        <div class="gallery__slide image_lighthouse">
+                        </div>
+                        <div class="gallery__slide image_private-house">
+                        </div>
+                        <div class="gallery__slide image_north-wind">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="popup js-popup">
+            <div class="container popup__container">
+                <div class="popup__content js-popup__content">
+                    <div class="popup__close-btn js-popup__close-btn">
+                        <img src="./resources/popup__close-btn.svg" alt="">
+                    </div>
+                    <h1 class="popup__title">
+                        Заказать услугу
+                    </h1>
+                    <h2 class="popup__subtitle">
+                        Заполните форму, мы свяжемся с вами в течение суток
                     </h2>
-                    <div class="gallery__controls">
-                        <button class="gallery__control_prev">
-                        </button>
-                        <button class="gallery__control_next">
+                    <input class="popup__count" type="text" placeholder="Имя">
+                    <input class="popup__count" type="text" placeholder="Электронная почта">
+                    <input class="popup__count popup__count-last" type="text" placeholder="Номер телефона">
+                    <div>
+                        <button class="btn-sending">
+                            Отправить
                         </button>
                     </div>
-                    <p class="gallery__description">
-                        Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж
-                    </p>
-            </div>
-            <div class="gallery__slides">
-                <div class="gallery__slide gallery__slide_active image_forest-landscape">
-                </div>
-                <div class="gallery__slide image_lighthouse">
-                </div>
-                <div class="gallery__slide image_private-house">
-                </div>
-                <div class="gallery__slide image_north-wind">
                 </div>
             </div>
-        </section> -->
+        </div>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="contacts__title">
+                    КОНТАКТЫ
+                </h2>
+               <div class="contacts__items">
+                <a class="contacts__number" href="tel:+7 935 895-45-35">
+                    +7 935  895-45-35
+                </a>
+                <a class="contacts__mail" href="mailto:hello@mail.com">
+                    hello@mail.com
+                </a>
+               </div>
+            </div>      
+        </section>
     </main>
-    <footer>
-        <div class="footer">
-        </div> 
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="menu__footer">
+                <a class="item-black item-black-aboutus" href="#aboutus">
+                    О НАС
+                </a>
+                <a class="item-black item-black-projects"  href="#projects">
+                    ПРОЕКТЫ
+                </a>
+                <a class="item-black item-black-servises" href="#services">
+                    УСЛУГИ
+                </a>
+                <a class="item-black item-black-contacts" href="#contacts">
+                    КОНТАКТЫ
+                </a>
+            </div>
+            <p class="footer__copyright">
+                студия дизайна интерьера Метрика — 2023
+            </p>
+        </div>
     </footer>
-    <script src="./gallery.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/popup.js"></script>
 </body>
 </html>
